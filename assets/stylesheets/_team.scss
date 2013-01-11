@@ -1,0 +1,22 @@
+.member {
+  margin-top: 50px;
+  clear: both;
+
+  img {
+    width: 110px;
+    float: left;
+  }
+
+  p.name {
+    font-family: Georgia;
+    font-size: 18px;
+    color: #09f;
+    margin-left: 120px;
+    margin-bottom: 0px;
+  }
+
+  p.description {
+    margin-left: 120px;
+    text-align: left;
+  }
+}

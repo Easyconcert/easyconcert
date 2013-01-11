@@ -5,6 +5,3 @@
 
 //= require jquery.min
 //= require jquery.fancybox.min
-
-jQuery ->
-  alert "Hi"

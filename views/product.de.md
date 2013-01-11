@@ -1,0 +1,5 @@
+<span>easy</span>concert bietet Veranstaltern eine professionelle Lösung zur Ticketbuchung und ermöglicht Konzertbesuchern einen schnellen und einfachen Buchungsvorgang rund um die Uhr. Das Tool erleichtert den Versand und Bezahlung der Tickets durch eine automatische Rechnungsstellung. easyconcert ist damit die professionelle Alternative zur komplizierten Kartenbestellung via Telefon oder E-Mail. Die aufwendige Rechnungsstellung bzw. unsichere Barzahlung am Konzertabend und der eventuelle Reservierungsausfall können durch den verbindlichen Vorabversand vermieden werden.
+
+<span>easy</span>concert ist für einzelne Konzerte individuell anpassbar und kann problemlos auf bestehende Websites verlinkt werden. Dabei bietet easyconcert in der Basisversionen Ticketing mit mehreren Kategorien und Ermäßigungsstufen bis hin zur individuellen Lösung mit punktgenauer Saalplanbuchung.
+
+![](/images/feature_overview.de.png)

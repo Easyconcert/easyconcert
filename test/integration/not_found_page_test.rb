@@ -5,7 +5,7 @@ require_relative '../support/integration_helper'
 describe 'The Not-Found Page' do
 
   before do
-    get "/foo-bar"
+    visit "/foo-bar"
   end
 
   it 'must not be present' do
@@ -13,11 +13,11 @@ describe 'The Not-Found Page' do
   end
 
   it 'must show the right title' do
-    last_response.body.must_have_title 'My App'
+    last_response.body.must_have_title 'easyconcert.de'
   end
 
   it 'must show the right heading' do
-    last_response.body.must_include 'Page Not Found'
+    last_response.body.must_include 'Die von Ihnen gesuchte Seite wurde nicht gefunden!'
   end
 
 end

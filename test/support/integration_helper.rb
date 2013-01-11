@@ -1,5 +1,5 @@
 require 'rack/test'
-require_relative '../../myapp'
+require_relative '../../easyconcert'
 require_relative 'custom_matchers'
 
 # Setup Test environment

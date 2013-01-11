@@ -2,6 +2,7 @@ source :rubygems
 ruby "1.9.3"
 
 gem 'sinatra'
+gem 'i18n'
 gem 'rdiscount'
 gem 'thin'
 

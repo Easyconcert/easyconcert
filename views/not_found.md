@@ -1,3 +1,3 @@
-# Page Not Found
+# Oops!
 
-The page could not be found. Please check the URL and try again!
+Die von Ihnen gesuchte Seite wurde nicht gefunden! Hier geht's zurück zur [Startseite](/).
