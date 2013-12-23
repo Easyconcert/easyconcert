@@ -22,7 +22,6 @@ end
 group :test do
   gem 'rake'
   gem 'minitest'
-  gem 'turn'
   gem 'rack-test', :require => 'rack/test'
   gem 'webrat'
 end

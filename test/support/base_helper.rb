@@ -4,7 +4,5 @@ require 'bundler'
 Bundler.require :test
 gem 'minitest'
 require 'minitest/autorun'
-require "turn/autorun"
+require 'minitest/pride'
 
-# Configure test output
-Turn.config.format = :dot
