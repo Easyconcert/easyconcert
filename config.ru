@@ -2,7 +2,7 @@ require 'bundler'
 Bundler.require :default, :assets, (ENV['RACK_ENV'] || '').to_sym
 require 'sinatra/base'
 require 'sprockets'
-require './easyconcert'
+require './app'
 
 map '/assets' do
   environment = Sprockets::Environment.new

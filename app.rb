@@ -6,11 +6,16 @@ require 'rdiscount'
 # Setup
 Dir[File.dirname(__FILE__) + '/lib/*.rb'].each {|file| require file }
 I18n.load_path += Dir[File.join(File.dirname(__FILE__), 'locales', '*.yml').to_s]
+I18n.enforce_available_locales = true
 
 # Serve static pages with locale
 get %r{/(en|de)?/?(.+)} do |locale, page|
   I18n.locale = locale || settings.default_locale
   render_static [page, current_locale].join(".")
+end
+
+get %r{/(en|de)/?} do |locale|
+  render_static "idea.#{locale}"
 end
 
 get '/' do
